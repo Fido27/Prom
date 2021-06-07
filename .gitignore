@@ -1,10 +1,2 @@
-.gradle/
 .idea/
-build/
-gradle/
-.env
-gradlew
-gradlew.bat
-settings.gradle
-
 *.class

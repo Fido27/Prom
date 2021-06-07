@@ -20,7 +20,7 @@ public class Prom {
 
 
         //Token to get the bot to start.
-        JDA jda = JDABuilder.createDefault(Config.get("TOKEN")).addEventListeners().build(); //TODO: Change the token from the class to a config file or something
+        JDA jda = JDABuilder.createDefault(Config.get("TOKEN")).addEventListeners().build();
         //To set current online activity wali cheez.
         jda.getPresence().setActivity(Activity.playing("With your MOM"));
 
@@ -28,7 +28,6 @@ public class Prom {
         jda.addEventListener(new Commands());
         jda.addEventListener(new ReactRoles());
 
-        //Only here to test Git
         //Following are all the Database things.
         //String addMember = "INSERT INTO MemberActivityMonitor (MemberName, Points) VALUES (" + ;
 
