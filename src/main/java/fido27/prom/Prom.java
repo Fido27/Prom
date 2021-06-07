@@ -28,7 +28,7 @@ public class Prom {
         jda.addEventListener(new Commands());
         jda.addEventListener(new ReactRoles());
 
-
+        //Only here to test Git
         //Following are all the Database things.
         //String addMember = "INSERT INTO MemberActivityMonitor (MemberName, Points) VALUES (" + ;
 
